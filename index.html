@@ -11,53 +11,85 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-md bg-body-tertiary bg-secondary" id="navbar">
-        <div class="container-fluid px-0">
-          <a class="navbar-brand" href="#">OURSERVICE</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              <a class="nav-link" href="#about">Payment</a>
-              <a class="nav-link" href="#service">Service</a>
-              <a class="nav-link disabled" aria-disabled="true">New Featured(soon)</a>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-md bg-body-tertiary bg-secondary" id="navbar">
+          <div class="container-fluid px-0">
+            <a class="navbar-brand" href="#">OURSERVICE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" href="#about">Payment</a>
+                <a class="nav-link" href="#service">Service</a>
+                <a class="nav-link disabled" aria-disabled="true">New Featured(soon)</a>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+    </header>
 
-      <section class="container-fluid px-0">
-        <div class="row align-items-center text-center">
+      <main>
+        <section class="container-fluid px-0">
+          <div class="row align-items-center text-center">
+              <div class="col-md-6 order-2 order-md-1 p-0">
+                  <h1>We'll Service you</h1>
+                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <button type="button" class="btn btn-primary btn-lg">Try now</button>
+              </div>
+              <div class="col-md-6 order-1 order-md-2 p-0">
+                  <img class="img-fluid" src="asset/7118856_3288524.jpg" alt="">
+              </div>
+          </div>
+          <div class="row align-items-center text-center">
+            <div class="col-md-6 p-0">
+              <img class="img-fluid" src="asset/24488375_6960655.jpg" alt="">
+            </div>
+            <div class="col-md-6 p-0">
+                <h2>What is this?</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore velit ipsam error facilis, vitae maiores ipsum commodi cumque reprehenderit, quod odio libero, nihil temporibus quasi ducimus! Sunt consectetur veritatis laudantium!</p>
+            </div>
+          </div>
+          <div class="row align-items-center text-center">
             <div class="col-md-6 order-2 order-md-1 p-0">
-                <h1>We'll Service you</h1>
-                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button type="button" class="btn btn-primary btn-lg">Try now</button>
+                <h3>Lorem Ipsum</h3>
+                <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, dolore labore quam, aliquid natus earum ullam accusamus, voluptatibus quae fugiat dolorum. Officiis veniam eligendi maxime quam, inventore impedit saepe in.</p>
             </div>
             <div class="col-md-6 order-1 order-md-2 p-0">
-                <img class="img-fluid" src="asset/7118856_3288524.jpg" alt="">
+                <img class="img-fluid" src="asset/6610842_3372240.jpg" alt="">
             </div>
         </div>
-        <div class="row align-items-center text-center">
-          <div class="col-md-6 p-0">
-            <img class="img-fluid" src="asset/24488375_6960655.jpg" alt="">
+        </section>
+        <section class="mt-5">
+          <div class="container">
+            <div class="d-flex flex-row mb-3 justify-content-center" style="gap: 18px;">
+              <div class="card" style="width: 18rem;">
+                <img src="asset/24488375_6960655.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3>IDR 100K</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="asset/6610842_3372240.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 style="text-decoration: line-through;">IDR 210k</h5>
+                  <h3 style="color: red;">IDR 80k</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="asset/7118856_3288524.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3>IDR 150k</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6 p-0">
-              <h2>What is this?</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore velit ipsam error facilis, vitae maiores ipsum commodi cumque reprehenderit, quod odio libero, nihil temporibus quasi ducimus! Sunt consectetur veritatis laudantium!</p>
-          </div>
-        </div>
-        <div class="row align-items-center text-center">
-          <div class="col-md-6 order-2 order-md-1 p-0">
-              <h3>Lorem Ipsum</h3>
-              <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, dolore labore quam, aliquid natus earum ullam accusamus, voluptatibus quae fugiat dolorum. Officiis veniam eligendi maxime quam, inventore impedit saepe in.</p>
-          </div>
-          <div class="col-md-6 order-1 order-md-2 p-0">
-              <img class="img-fluid" src="asset/6610842_3372240.jpg" alt="">
-          </div>
-      </div>
-      </section>
+        </section>
+      </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
